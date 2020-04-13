@@ -1,7 +1,77 @@
 .programm {
+  letter-spacing: normal;
   background: url("../img/index-background-mobile@1x.jpg") no-repeat center top;
 }
 
+.programm__header {
+  color: $white;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  font-weight: normal;
+}
+
+.programm__slogan {
+  color: $white;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  font-weight: normal;
+}
+
+.programm__button-frame {
+  width: 280px;
+  height: 40px;
+  background-color: $green;
+}
+
+.programm__button-text {
+  color: $white;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
 .programm-type ul {
+  width: 280px;
+  min-height: 266px;
   background-color: $grey-back;
+}
+
+.programm-type__ellipse {
+  width: 50px;
+  height: 51px;
+  background-color: $green;
+  border-radius: 50%;
+}
+
+.programm-type__title {
+  font-size: 24px;
+  line-height: 1.54;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.programm-type__paragraph {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: left;
+}
+
+.programm-type__line {
+  width: 240px;
+  height: 1px;
+  background-color: $black;
+
+  opacity: 0.1;
+}
+
+.programm-type__catalog {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1;
+  text-align: left;
 }

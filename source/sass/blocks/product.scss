@@ -1,43 +1,33 @@
-.catalog__title {
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
-  text-align: left;
-}
-
-.catalog__subtitle {
+.product__title {
   font-size: 16px;
   font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 }
 
-.catalog__subtext {
-  font-family: Arial;
+.product__options {
+  font-family: "Arial";
   font-size: 12px;
   font-weight: normal;
   line-height: 1.33;
   letter-spacing: normal;
-  text-align: center;
+  text-align: left;
 }
 
-.catalog__button-frame {
+.product__button-frame {
   width: 280px;
   height: 40px;
-  background-color: $light-grey;
+  background-color: $green;
   text-align: center;
 }
 
-.catalog__button-text {
+.product__button-text {
+  color: $white;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.25;
   letter-spacing: normal;
-  color: #444444;
   text-transform: uppercase;
 }

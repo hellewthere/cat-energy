@@ -5,3 +5,63 @@
 .add-catalog__promo {
   background: url("../img/gift-photo-mobile@1x.jpg") no-repeat center top;
 }
+
+.add-catalog__title {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.add-product__title {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.add-product__options {
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.add-product__button-frame {
+  width: 280px;
+  height: 40px;
+  background-color: $green;
+  text-align: center;
+}
+
+.add-product__button-text {
+  color: $white;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+.add-catalog__promo {
+  width: 280px;
+  height: 289px;
+  background: url("../img/gift-photo-mobile@1x.jpg") no-repeat center top;
+}
+
+.add-catalog__promo-text {
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+}

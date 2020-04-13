@@ -1,3 +1,59 @@
 .demo {
   background-color: $grey-back;
 }
+
+.demo__title {
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.demo__text {
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.demo__stats-value {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.demo__stats-subtitle {
+  font-family: "Arial";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.demo__caption {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.demo__progress-button {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+}

@@ -1,3 +1,20 @@
 .footer {
   background-color: $grey-back;
 }
+
+.footer__line {
+  background-color: $black;
+  width: 280px;
+  height: 1px;
+  opacity: 0.1;
+}
+
+.footer__developer {
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: $grey;
+}

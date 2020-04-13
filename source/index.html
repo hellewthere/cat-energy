@@ -11,16 +11,15 @@
 
 <body>
   <header class="page-header">
-    <ul class="page-header__list">
-      <li class="page-header__logo">
-        <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="191" height="39"
+    <div class="page-header__top">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logo-mobile.svg" width="191" height="39"
           alt="Функциональное питание Cat Energy">
-      </li>
-      <li class="page-header__menu">
-        <img class="page-header__menu-image" src="https://via.placeholder.com/150x150" width="25" height="19"
-          alt="Главное меню">
-      </li>
-    </ul>
+      </a>
+      <a class="page-header__menu">
+        <img class="page-header__menu-image" src="img/icon-mobile-menu.svg" width="25" height="19" alt="Главное меню">
+      </a>
+    </div>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button"></button>
       <div class="main-nav__wrapper">
@@ -45,48 +44,53 @@
     <section class="programm">
       <h2 class="programm__header">Функциональное питание для котов</h2>
       <h3 class="programm__slogan">Занялся собой? Займись котом!</h3>
-      <img class="programm__main-image" src="https://via.placeholder.com/150x150" width="280" height="270"
+      <img class="programm__main-image" src="img/index-can-mobile@1x.png" width="280" height="270"
         alt="Корм Cat Energy">
-      <a class="programm__fetch-button">Подобрать программу</a>
+      <div class="programm__button-frame">
+        <a class="programm__button-text">Подобрать программу</a>
+      </div>
 
       <div class="programm-type">
-
         <ul class="programm-type__slim">
           <li class="programm-type__slim-logo">
-            <a><img class="programm-type__slim-ellipse" src="https://via.placeholder.com/150x150" width="50" height="51"
-                alt=""></a>
-            <a><img class="programm-type__slim-cat" src="https://via.placeholder.com/150x150" width="35" height="49"
-                alt=""></a>
+            <div class="programm-type__ellipse">
+              <a>
+                <img class="programm-type__slim" src="img/icon-cat-slim.svg" width="35" height="49" alt="">
+              </a>
+            </div>
           </li>
-          <li class="programm-type__slim-title">Похудение</li>
-          <li class="programm-type__slim-paragraph">
+          <li class="programm-type__title">Похудение</li>
+          <li class="programm-type__paragraph">
             <p>Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy
               Slim поможет вашему питомцу сбросить лишний вес.</p>
           </li>
-          <li class="programm-type__slim-line"><a><img src="https://via.placeholder.com/150x150" width="240" height="1"
-                alt=""></a></li>
-          <li class="programm-type__slim-catalog">Каталог Slim</li>
-          <li class="programm-type__slim-arrow"><a><img src="https://via.placeholder.com/150x150" width="25" height="12"
+          <li>
+            <div class="programm-type__line"></div>
+          </li>
+          <li class="programm-type__catalog">Каталог Slim</li>
+          <li class="programm-type__arrow"><a><img src="img/icon-right-arrow-long.svg" width="25" height="12"
                 alt=""></a></li>
         </ul>
 
         <ul class="programm-type__weight">
           <li class="programm-type__weight-logo">
-            <a><img class="programm-type__weight-ellipse" src="https://via.placeholder.com/150x150" width="50"
-                height="51" alt=""></a>
-            <a><img class="programm-type__weight-cat" src="https://via.placeholder.com/150x150" width="35" height="49"
-                alt=""></a>
+            <div class="programm-type__ellipse">
+              <a>
+                <img class="programm-type__weight" src="img/icon-cat-pro.svg" width="67" height="28" alt="">
+              </a>
+            </div>
           </li>
-          <li class="programm-type__weight-title">Набор массы</li>
-          <li class="programm-type__weight-paragraph">
+          <li class="programm-type__title">Набор массы</li>
+          <li class="programm-type__paragraph">
             <p>Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту
               нарастить необходимые мышцы!</p>
           </li>
-          <li class="programm-type__weight-line"><a><img src="https://via.placeholder.com/150x150" width="240"
-                height="1" alt=""></a></li>
-          <li class="programm-type__weight-catalog">Каталог Pro</li>
-          <li class="programm-type__weight-arrow"><a><img src="https://via.placeholder.com/150x150" width="25"
-                height="12" alt=""></a></li>
+          <li>
+            <div class="programm-type__line"></div>
+          </li>
+          <li class="programm-type__catalog">Каталог Pro</li>
+          <li class="programm-type__arrow"><a><img src="img/icon-right-arrow-long.svg" width="25" height="12"
+                alt=""></a></li>
         </ul>
       </div>
     </section>
@@ -97,8 +101,9 @@
       <ul class="advantages__list">
         <li class="advantages__item advantages__item--1">
           <div class="advantages__illustration">
-            <img class="advantages__image" src="img/advantage-leaf@1x.png" srcset="img/advantage-leaf@2x.png 2x"
-              alt="leaf" width="50" height="50">
+            <div class="advantagess__image-back">
+              <img class="advantages__image" src="img/advantage-leaf@1x.png" alt="leaf" width="50" height="50">
+            </div>
             <p class="advantages__text">
               Функциональное питание содержит только полезные питательные вещества.
             </p>
@@ -106,8 +111,9 @@
         </li>
         <li class="advantages__item advantages__item--2">
           <div class="advantages__illustration">
-            <img class="advantages__image" src="img/advantage-powder@1x.png" srcset="img/advantage-powder@2x.png 2x"
-              alt="powder" width="50" height="50">
+            <div class="advantagess__image-back">
+              <img class="advantages__image" src="img/advantage-powder@1x.png" alt="powder" width="50" height="50">
+            </div>
           </div>
           <p class="advantages__text">
             Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
@@ -115,8 +121,9 @@
         </li>
         <li class="advantages__item advantages__item--3">
           <div class="advantages__illustration">
-            <img class="advantages__image" src="img/advantage-dining@1x.png" srcset="img/advantage-dining@2x.png 2x"
-              alt="dining" width="50" height="50">
+            <div class="advantagess__image-back">
+              <img class="advantages__image" src="img/advantage-dining@1x.png" alt="dining" width="50" height="50">
+            </div>
           </div>
           <p class="advantages__text">
             Замените один-два приема обычной еды на наше функциональное питание.
@@ -124,8 +131,9 @@
         </li>
         <li class="advantages__item advantages__item--4">
           <div class="advantages__illustration">
-            <img class="advantages__image" src="img/advantage-clock@1x.png" srcset="img/advantage-clock@2x.png 2x"
-              alt="clock" width="50" height="50">
+            <div class="advantagess__image-back">
+              <img class="advantages__image" src="img/advantage-clock@1x.png" alt="clock" width="50" height="50">
+            </div>
           </div>
           <p class="advantages__text">
             Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
@@ -160,6 +168,7 @@
           </div>
           <div class="demo__progress">
             <div class="demo__image-wrapper">
+              <img class="demo__image" src="img/before-mobile@1x.png" width="311" height="232">
               <div class="demo__illustration demo__illustration--before"></div>
               <div class="demo__illustration demo__illustration--after"></div>
             </div>
@@ -190,57 +199,47 @@
           </div>
         </div>
       </div>
-      <div class="cooperation__map" id="map"></div>
+      <div class="cooperation__map" id="map"><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1586785779807!5m2!1sru!2sru"
+          width="600" height="450" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe></div>
     </section>
   </main>
   <footer class="footer">
     <div class="container">
       <div class="footer__wrapper">
-        <div class="footer__block footer__block--logo">
-          <a href="index.html" class="footer__logo-link">
-            <h3 class="visually-hidden">Cat Energy</h3>
-            <svg class="footer__logo" width="130" height="25">
-              <use xlink:href="#logo-footer"></use>
-            </svg>
-          </a>
-        </div>
-        <div class="footer__block footer__block--social">
-          <ul class="footer__list social-list">
-            <li class="social-list__item">
-              <a href="" class="social-list__link">
-                <h3 class="visually-hidden">Мы Вконтакте</h3>
-                <svg class="social-list__icon social-list__icon--vk" width="22" height="12">
-                  <use xlink:href="#icon-vk-mobile"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list__item">
-              <a href="" class="social-list__link">
-                <h3 class="visually-hidden">Мы в Инстаграме</h3>
-                <svg class="social-list__icon social-list__icon--inst" width="16" height="16">
-                  <use xlink:href="#icon-insta-mobile"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list__item">
-              <a href="" class="social-list__link">
-                <h3 class="visually-hidden">Мы в Фейсбуке</h3>
-                <svg class="social-list__icon social-list__icon--fb" width="10" height="19">
-                  <use xlink:href="#icon-fb-mobile"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__block footer__block--copyright">
-          <a class="footer__developer-link" href="https://htmlacademy.ru/intensive/adaptive">
-            <h3 class="footer__developer">HTML Academy</h3>
-            <svg class="footer__developer-icon" width="27" height="34">
-              <use xlink:href="#logo-htmlacademy"></use>
-            </svg>
-          </a>
-        </div>
+        <a class="footer__block footer__block--logo" href="index.html">
+          <img src="img/logo-footer.svg" width="128" height="24" alt="">
+        </a>
       </div>
+      <div class="footer__line"></div>
+      <div class="footer__block footer__block--social">
+        <ul class="footer__list social-list">
+          <li class="social-list__item">
+            <a href="" class="social-list__link">
+              <img src="img/icon-vk.svg" width="22" height="12" alt="Мы в Vkontakte">
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="" class="social-list__link">
+              <img src="img/icon-insta.svg" width="17" height="17" alt="Мы в Instagram">
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="" class="social-list__link">
+              <img src="img/icon-fb.svg" width="10" height="19" alt="Мы в Facebook">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__line"></div>
+      <div class="footer__block footer__block--copyright">
+        <a class="footer__developer-link" href="https://htmlacademy.ru/intensive/adaptive">
+          <h3 class="footer__developer">HTML Academy</h3>
+          <img src="img/htmlacademy.svg" width="27" height="34" alt="HTML Academy">
+        </a>
+      </div>
+    </div>
     </div>
   </footer>
 
