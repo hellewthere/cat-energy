@@ -3,6 +3,8 @@
 }
 
 .add-catalog__promo {
+  width: 280px;
+  height: 289px;
   background: url("../img/gift-photo-mobile@1x.jpg") no-repeat center top;
 }
 
@@ -24,7 +26,7 @@
 }
 
 .add-product__options {
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -50,14 +52,8 @@
   text-transform: uppercase;
 }
 
-.add-catalog__promo {
-  width: 280px;
-  height: 289px;
-  background: url("../img/gift-photo-mobile@1x.jpg") no-repeat center top;
-}
-
 .add-catalog__promo-text {
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.25;

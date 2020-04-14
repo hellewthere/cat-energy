@@ -11,7 +11,7 @@
 }
 
 .demo__text {
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.29;
@@ -28,7 +28,7 @@
 }
 
 .demo__stats-subtitle {
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1;
@@ -54,6 +54,6 @@
 
   padding: 0;
   border: none;
-  font: inherit;
+  font-family: inherit;
   color: inherit;
 }
